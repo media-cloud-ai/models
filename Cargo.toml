@@ -1,0 +1,22 @@
+[package]
+name = "mcai_models"
+version = "0.0.1"
+authors = [
+  "Marc-Antoine Arnaud <maarnaud@media-io.com>"
+]
+description = "Models for Media Cloud AI project"
+keywords = ["MCAI", "models"]
+license = "MIT"
+repository = "https://github.com/media-cloud-ai/models"
+homepage = "https://github.com/media-cloud-ai/models"
+documentation = "https://docs.rs/mcai_models"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+lazy_static = "1.4"
+regex = "1"
+schemars = "0.8.0"
+serde = "^1.0"
+serde_derive = "^1.0"
+serde_json = "^1.0"
